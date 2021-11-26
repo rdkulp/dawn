@@ -3,13 +3,14 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "desktop_text_box_position": "flex-end"
+        "desktop_text_box_position": "flex-start",
+        "image_heigh": "large"
       },
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand"
+            "heading": "WINDOW COVERS DONE RIGHT FOR LESS"
           }
         },
         "button": {
