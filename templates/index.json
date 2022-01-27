@@ -88,13 +88,9 @@
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "text"
       ]
     },
-    "video": {
-      "type": "video"
-    }
   },
   "order": [
     "image_banner",
