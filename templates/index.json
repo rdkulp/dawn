@@ -73,7 +73,7 @@
         "button"
       ]
     },
-    "image_banner": {
+    "image_banner_sustainable": {
       "type": "image-banner",
       "settings": {
         "desktop_text_box_position": "flex-start",
@@ -102,7 +102,7 @@
     "rich_text",
     "featured_products",
     "lights_out",
-    "image_banner",
+    "image_banner_sustainable",
     "video"
   ]
 }
