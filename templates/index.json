@@ -2,85 +2,134 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "settings": {
-        "desktop_text_box_position": "flex-start",
-        "image_height": "large"
-      },
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "WINDOW COVERS DONE RIGHT FOR LESS"
+            "heading": "Built for the JOURNEY and the DESTINATION",
+            "heading_size": "large"
+          }
+        },
+        "dc72cafe-879c-4624-b140-97a67b5988f0": {
+          "type": "text",
+          "settings": {
+            "text": "Keep light out and privacy in with the best blackout window covers period"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_label_2": ""
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
+        "dc72cafe-879c-4624-b140-97a67b5988f0",
         "button"
-      ]
+      ],
+      "settings": {
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-start",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "multi_column": {
+      "type": "multicolumn",
       "blocks": {
-        "heading": {
-          "type": "heading"
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         },
-        "text": {
-          "type": "text"
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         },
-        "button": {
-          "type": "button"
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
-      ]
-    },
-    "featured_products": {
-      "type": "featured-collection",
+        "column1",
+        "column2",
+        "column3"
+      ],
       "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "image_ratio": "square"
+        "title": "BRANDS",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
       }
     },
     "lights_out": {
       "type": "lights-out",
       "blocks": {
         "heading": {
-          "type": "heading"
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
         },
         "text": {
-          "type": "text"
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
         },
         "button": {
-          "type": "button"
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "heading",
         "text",
         "button"
-      ]
-    },
-    "image_banner_sustainable": {
-      "type": "image-banner",
+      ],
       "settings": {
-        "desktop_text_box_position": "flex-start",
-        "image_height": "large"
-      },
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1643317345a92fda10": {
+      "type": "image-banner",
       "blocks": {
-        "text": {
+        "164331734543101590-1": {
           "type": "text",
           "settings": {
             "text": "We make a living outfitting camper vans, but we make a life exploring the globe. As adventure consumers, sustainability is one of our guiding values. That’s why we offset 100% of our carbon footprint—joining the ranks of just 338 Climate Neutral Certified brands."
@@ -88,16 +137,24 @@
         }
       },
       "block_order": [
-        "text"
-      ]
-    },
+        "164331734543101590-1"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
   },
   "order": [
     "image_banner",
     "multi_column",
-    "rich_text",
-    "featured_products",
     "lights_out",
-    "image_banner_sustainable"
+    "1643317345a92fda10"
   ]
 }
