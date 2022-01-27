@@ -54,6 +54,25 @@
         "image_ratio": "square"
       }
     },
+    "lights_out": {
+      "type": "lights-out",
+      "blocks": {
+        "heading": {
+          "type": "heading"
+        },
+        "text": {
+          "type": "text"
+        },
+        "button": {
+          "type": "button"
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ]
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -98,10 +117,11 @@
   },
   "order": [
     "image_banner",
+    "multi_column",
     "rich_text",
     "featured_products",
+    "lights_out",
     "collage",
-    "video",
-    "multi_column"
+    "video"
   ]
 }
