@@ -140,7 +140,7 @@
         "164331734543101590-1"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "show_text_box": true,
