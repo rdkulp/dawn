@@ -126,16 +126,19 @@
         "full_width": true
       }
     },
-    "inset-image-banner": {
-      "type": "inset-image-banner",
+    "1643317345a92fda10": {
+      "type": "image-banner",
       "blocks": {
-        "heading": {
+        "164331734543101590-1": {
           "type": "text",
           "settings": {
             "text": "We make a living outfitting camper vans, but we make a life exploring the globe. As adventure consumers, sustainability is one of our guiding values. That’s why we offset 100% of our carbon footprint—joining the ranks of just 338 Climate Neutral Certified brands."
           }
         }
       },
+      "block_order": [
+        "164331734543101590-1"
+      ],
       "settings": {
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -146,12 +149,18 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "164468368364d2fb31": {
+      "type": "inset-image-banner",
+      "settings": {
+      }
     }
   },
   "order": [
     "image_banner",
     "multi_column",
     "lights_out",
-    "inset_image_banner"
+    "1643317345a92fda10",
+    "164468368364d2fb31"
   ]
 }
