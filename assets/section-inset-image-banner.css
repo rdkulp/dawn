@@ -40,4 +40,5 @@
 
 .inset-image-wrapper .inset-image-container .inset-image-content .section-heading {
   text-align: center;
+  text-transform: uppercase;
 }
