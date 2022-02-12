@@ -5,7 +5,7 @@
     <div class="inset-image">
       <picture>
         <img class="inset-banner-image"
-          src="{{ section.settings.image }}"
+          src="{{ section.settings.image | img_url }}"
           alt="{{ section.settings.image.alt | escape }}"
         >
       </picture>
