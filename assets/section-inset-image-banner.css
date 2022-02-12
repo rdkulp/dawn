@@ -10,10 +10,15 @@
   overflow: hidden;
 }
 
+.inset-image-container.no-image {
+  background-color: #d8d8d8;
+}
+
 .inset-image {
   display: flex;
   position: relative;
   width: 100%;
+  aspect-ratio: 2/1;
 }
 
 .inset-image-wrapper .inset-image-contaier .inset-image picture, .inset-image-wrapper .inset-image-contaier .inset-image picture .inset-banner-image {

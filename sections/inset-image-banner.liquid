@@ -1,12 +1,12 @@
 {{ 'section-inset-image-banner.css' | asset_url | stylesheet_tag }}
 
 <section class="inset-image-wrapper">
-  <div class="inset-image-container">
+  <div class="inset-image-container {% if section.settings.image == blank %} no-image {% endif %}">
     <div class="inset-image">
       <picture>
         <img class="inset-banner-image"
-          src="https://www.fillmurray.com/g/1400/700"
-          alt="stock bill murray photo"
+          src="{{ section.settings.image }}"
+          alt="{{ section.settings.image.alt | escape }}"
         >
       </picture>
     </div>
