@@ -1,12 +1,12 @@
 .inset-image-wrapper {
   width: 100%;
-  padding: 4em 8em;
+  padding: 1em;
 }
 
 .inset-image-container {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -15,30 +15,53 @@
 }
 
 .inset-image {
-  display: flex;
   position: relative;
+  display: block;
   width: 100%;
+  height: 100%;
   aspect-ratio: 2/1;
 }
 
-.inset-image-wrapper .inset-image-contaier .inset-image picture, .inset-image-wrapper .inset-image-contaier .inset-image picture .inset-banner-image {
+picture, img.inset-banner-image {
   width: 100%;
-  object-fit: fill;
+  height: 100%;
 }
 
 .inset-image-wrapper .inset-image-container .inset-image-content {
-  position: absolute;
-  width: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #ffffff;
-  opacity: .7;
-  border-radius: 5px;
-  padding: 3rem;
+  position: relative;
 }
 
-.inset-image-wrapper .inset-image-container .inset-image-content .section-heading {
-  text-align: center;
-  text-transform: uppercase;
+@media screen and (min-width: 749px) {
+  .inset-image-wrapper {
+    padding: 4em 8em;
+  }
+
+  .inset-image {
+    display: flex;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 2/1;
+  }
+
+  .inset-image-wrapper .inset-image-contaier .inset-image picture, .inset-image-wrapper .inset-image-contaier .inset-image picture .inset-banner-image {
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .inset-image-wrapper .inset-image-container .inset-image-content {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    opacity: .7;
+    border-radius: 5px;
+    padding: 3rem;
+  }
+
+  .inset-image-wrapper .inset-image-container .inset-image-content .section-heading {
+    text-align: center;
+    text-transform: uppercase;
+  }
 }
