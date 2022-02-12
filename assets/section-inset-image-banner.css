@@ -25,6 +25,7 @@
 picture, img.inset-banner-image {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .inset-image-wrapper .inset-image-container .inset-image-content {
