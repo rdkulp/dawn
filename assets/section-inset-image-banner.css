@@ -11,17 +11,14 @@
 }
 
 .inset-image {
+  display: flex;
   position: relative;
+  width: 100%;
 }
 
-.inset-image-wrapper .inset-image-contaier .inset-image picture, .inset-image-wrapper .inset-image-contaier .inset-image picture img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
+.inset-image-wrapper .inset-image-contaier .inset-image picture, .inset-image-wrapper .inset-image-contaier .inset-image picture .inset-banner-image {
   width: 100%;
-  height: 100%;
-  aspect-ratio: 2/1;
+  object-fit: fill;
 }
 
 .inset-image-wrapper .inset-image-container .inset-image-content {

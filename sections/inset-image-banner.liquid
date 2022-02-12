@@ -4,7 +4,10 @@
   <div class="inset-image-container">
     <div class="inset-image">
       <picture>
-        <img src="https://www.fillmurray.com/g/1400/700" alt="stock bill murray photo">
+        <img class="inset-banner-image"
+          src="https://www.fillmurray.com/g/1400/700"
+          alt="stock bill murray photo"
+        >
       </picture>
     </div>
 
@@ -25,6 +28,11 @@
   {
     "name": "Inset Image Banner",
     "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "t:sections.image-banner.settings.image.label"
+      },
       {
         "id": "section-heading",
         "type": "text",
