@@ -10,6 +10,8 @@
     "type_header_font": "open_sans_condensed_n7",
     "type_body_font": "open_sans_n4",
     "favicon": "shopify:\/\/shop_images\/ve-fav_cdc76c97-ae8c-459c-8c45-a4581cd15bd4.png",
+    "checkout_accent_color": "#536eaf",
+    "checkout_button_color": "#536eaf",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
