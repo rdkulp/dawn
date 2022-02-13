@@ -50,10 +50,11 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/mercedes-benz-logo.png",
+            "title": "MERCEDES-BENZ SPRINTER",
+            "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/mercedes-benz"
           }
         },
         "column2": {
@@ -81,10 +82,10 @@
         "column3"
       ],
       "settings": {
-        "title": "BRANDS",
+        "title": "PICK YOUR RIDE",
         "image_width": "full",
         "image_ratio": "adapt",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
