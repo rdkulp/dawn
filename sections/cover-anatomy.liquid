@@ -1,16 +1,15 @@
 {{ 'section-cover-anatomy.css' | asset_url | stylesheet_tag }}
 
 <section class="cover-anatomy-wrapper">
-  <div class="cover-anatomy-image">
-    <img class="inset-banner-image"
+  <div class="cover-anatomy-grid">
+    <img class="cover-anatomy-image"
       src="{{ section.settings.image | img_url: '1500x' }}"
       alt="{{ section.settings.image.alt | escape }}"
     >
-    <div class="">
+    <div class="cover-anatomy-tooltip">
       <p class="bold">{{ settings.title }}</p>
       <p>{{ settings.text }}</p>
     </div>
-
   </div>
 </section>
 {% schema %}
