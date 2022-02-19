@@ -1,7 +1,48 @@
+{{ 'section-cover-anatomy.css' | asset_url | stylesheet_tag }}
+
+<section class="cover-anatomy-wrapper">
+  <div class="cover-anatomy-image">
+    <img class="inset-banner-image"
+      src="{{ section.settings.image | img_url: '1500x' }}"
+      alt="{{ section.settings.image.alt | escape }}"
+    >
+    {% for item in items %}
+      <div class="">
+        <p class="bold">{{ item.title }}</p>
+        <p>{{ item.text }}</p>
+      </div>
+    {% endfor %}
+
+  </div>
+</section>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Cover Anatomy",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "t:sections.image-banner.settings.image.label"
+      },
+      "items": [
+        {
+          "id": "title",
+          "type": "text",
+          "label": "Item Title"
+        },
+        {
+          "id": "text",
+          "type": "textarea",
+          "label": Item Text"
+        }
+      ]
+    ],
+    "presets": [
+  	  {
+        "name": "Cover Anatomy",
+        "category": "CUSTOM LAYOUT"
+      }
+    ]
   }
 {% endschema %}
 
