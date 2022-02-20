@@ -60,7 +60,7 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
   }
 
   .cover-anatomy-tooltip-circle {
-    display: block;
+    display: block !important;
     width: 25px;
     height: 25px;
     border-radius: 50%;
