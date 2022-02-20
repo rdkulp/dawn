@@ -16,24 +16,27 @@ section.cover-anatomy-wrapper {
 
 .cover-anatomy-image {
   position: absolute;
+  width: 68%;
+  height: 68%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 p.bold {
-  margin: 0;
+  margin: 0 0 12px;
   font-weight: 900;
 }
 
 p.small {
+  margin: 0;
   font-size: 1.2rem;
-  line-height: 1em;
+  line-height: .8em;
 }
 
 .cover-anatomy-tooltip {
   position: absolute;
-  width: 20%;
+  max-width: 25%;
 }
 
 .cover-anatomy-tooltip:nth-child(2) {
@@ -42,7 +45,7 @@ p.small {
 }
 
 .cover-anatomy-tooltip:nth-child(3) {
-  top: 25%;
+  top: 18%;
   left: 75%;
 }
 
@@ -52,17 +55,17 @@ p.small {
 }
 
 .cover-anatomy-tooltip:nth-child(5) {
-  bottom: 30%;
+  top: 70%;
   left: 77.25%;
 }
 
 .cover-anatomy-tooltip:nth-child(6) {
-  bottom: 7.25%;
+  top: 92.75%;
   left: 50%;
 }
 
 .cover-anatomy-tooltip:nth-child(7) {
-  bottom: 20%;
+  top: 80%;
   left: 15%;
 }
 
