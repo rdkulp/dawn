@@ -70,7 +70,7 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
   .cover-anatomy-tooltip-circle::before {
     content: '';
     display: block;
-    transform: translate(12.5px, 12.5px);
+    transform: translate(6.25px, 6.25px);
     width: 12.5px;
     height: 12.5px;
     background-color: white;
