@@ -25,6 +25,7 @@ section.cover-anatomy-wrapper {
 
 .cover-anatomy-tooltip {
   margin-bottom: 12px;
+  padding: 0 5em;
 }
 
 .cover-anatomy-tooltip:last-child {
@@ -61,6 +62,7 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
   .cover-anatomy-tooltip {
     position: absolute;
     max-width: 20%;
+    padding: 0;
   }
 
   .cover-anatomy-tooltip:nth-child(2) {
