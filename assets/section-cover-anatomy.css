@@ -60,18 +60,19 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
   }
 
   .cover-anatomy-tooltip-circle {
+    display: block;
     width: 25px;
     height: 25px;
     border-radius: 50%;
     background-color: #536EAF;
   }
 
-  .cover-anatomy-tooltip-circle + p {
+  .cover-anatomy-tooltip-circle ~ p {
     opacity: 0;
     transition: opacity 300ms ease-in-ease-out;
   }
-  
-  .cover-anatomy-tooltip-circle:hover + p {
+
+  .cover-anatomy-tooltip-circle:hover ~ p {
     opacity: 1;
   }
 
