@@ -67,9 +67,24 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
     background-color: #536EAF;
   }
 
+  .cover-anatomy-tooltip-circle::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12.5px;
+    height: 12.5px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 300ms ease-in-ease-out;
+  }
+
   .cover-anatomy-tooltip-circle ~ p {
     opacity: 0;
-    transition: opacity 300ms ease-in-ease-out, border 300ms ease-in-out;
+    transition: opacity 300ms ease-in-ease-out;
   }
 
   .cover-anatomy-tooltip-circle:hover ~ p {
@@ -77,12 +92,7 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
   }
 
   .cover-anatomy-tooltip-circle:hover::before {
-    content: '';
-    display: block;
-    width: 12.5px;
-    height: 12.5px;
-    background-color: white;
-    border-radius: 50%;
+    opacity: 1;
   }
 
   .cover-anatomy-tooltip:nth-child(2) {
