@@ -76,6 +76,12 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
     opacity: 1;
   }
 
+  .cover-anatomy-tooltip:hover::before {
+    content: '';
+    display: block;
+    border: 2px #536EAF offset;
+  }
+
   .cover-anatomy-tooltip:nth-child(2) {
     top: 15%;
     left: 24%;
@@ -109,5 +115,11 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
   .cover-anatomy-tooltip:nth-child(8) {
     top: 50%;
     left: 2.5%;
+  }
+
+  .cover-anatomy-tooltip:nth-child(8) .cover-anatomy-tooltip-circle {
+    position: absolute;
+    left: 152%;
+    top: 80%;
   }
 }
