@@ -53,7 +53,7 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
     transform: translate(-50%, -50%);
   }
 
-  section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.bold, section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.small {
+  .cover-anatomy-tooltip p.bold, .cover-anatomy-tooltip p.small {
     opacity: 0;
     transition: opacity 300ms ease-in-ease-out;
   }
