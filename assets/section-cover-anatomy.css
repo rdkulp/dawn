@@ -15,6 +15,14 @@ section.cover-anatomy-wrapper {
   aspect-ratio: 1/1;
 }
 
+.cover-anatomy-image {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .cover-anatomy-tooltip {
   margin-bottom: 12px;
 }
