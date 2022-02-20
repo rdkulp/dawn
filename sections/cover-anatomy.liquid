@@ -1,40 +1,40 @@
 {{ 'section-cover-anatomy.css' | asset_url | stylesheet_tag }}
 
 <section class="cover-anatomy-wrapper">
-  <div class="cover-anatomy-title">
+  <h1 class="cover-anatomy-title">
     {{ section.settings.title }}
-  </div>
+  </h1>
   <div class="cover-anatomy-grid">
     <img class="cover-anatomy-image"
       src="{{ section.settings.image | img_url: '1500x' }}"
       alt="{{ section.settings.image.alt | escape }}"
     >
     <div class="cover-anatomy-tooltip-1">
-      <p class="bold">{{ section.settings.item-title-1 }}</p>
+      <h6>{{ section.settings.item-title-1 }}</h6>
       <p>{{ section.settings.item-text-1 }}</p>
     </div>
     <div class="cover-anatomy-tooltip-2">
-      <p class="bold">{{ section.settings.item-title-2 }}</p>
+      <h6>{{ section.settings.item-title-2 }}</h6>
       <p>{{ section.settings.item-text-2 }}</p>
     </div>
     <div class="cover-anatomy-tooltip-3">
-      <p class="bold">{{ section.settings.item-title-3 }}</p>
+      <h6>{{ section.settings.item-title-3 }}</h6>
       <p>{{ section.settings.item-text-3 }}</p>
     </div>
     <div class="cover-anatomy-tooltip-4">
-      <p class="bold">{{ section.settings.item-title-4 }}</p>
+      <h6>{{ section.settings.item-title-4 }}</h6>
       <p>{{ section.settings.item-text-4 }}</p>
     </div>
     <div class="cover-anatomy-tooltip-5">
-      <p class="bold">{{ section.settings.item-title-5 }}</p>
+      <h6>{{ section.settings.item-title-5 }}</h6>
       <p>{{ section.settings.item-text-5 }}</p>
     </div>
     <div class="cover-anatomy-tooltip-6">
-      <p class="bold">{{ section.settings.item-title-6 }}</p>
+      <h6>{{ section.settings.item-title-6 }}</h6>
       <p>{{ section.settings.item-text-6 }}</p>
     </div>
     <div class="cover-anatomy-tooltip-7">
-      <p class="bold">{{ section.settings.item-title-7 }}</p>
+      <h6>{{ section.settings.item-title-7 }}</h6>
       <p>{{ section.settings.item-text-7 }}</p>
     </div>
   </div>
