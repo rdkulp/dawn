@@ -129,7 +129,7 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
 
   .cover-anatomy-tooltip:nth-child(2) .cover-anatomy-tooltip-circle {
     position: absolute;
-    left: 145%;
+    left: 108%;
     top: 109%;
   }
 
@@ -141,14 +141,14 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
 
   .cover-anatomy-tooltip:nth-child(4) .cover-anatomy-tooltip-circle {
     position: absolute;
-    left: -50%;
+    left: -39%;
     top: -25%;
   }
 
   .cover-anatomy-tooltip:nth-child(5) .cover-anatomy-tooltip-circle {
     position: absolute;
-    left: -25%;
-    top: -125%;
+    left: -10%;
+    top: -145%;
   }
 
   .cover-anatomy-tooltip:nth-child(6) .cover-anatomy-tooltip-circle {
@@ -159,7 +159,7 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
 
   .cover-anatomy-tooltip:nth-child(7) .cover-anatomy-tooltip-circle {
     position: absolute;
-    left: 175%;
+    left: 150%;
     top: -5%;
   }
 
