@@ -16,6 +16,11 @@ section.cover-anatomy-wrapper {
 }
 
 .cover-anatomy-image {
+  position: relative;
+  aspect-ratio: 1/1;
+}
+
+.cover-anatomy-image img {
   position: absolute;
   width: 50%;
   top: 50%;
