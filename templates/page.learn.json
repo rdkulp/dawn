@@ -5,9 +5,18 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "1645309809e53cd6ea": {
+      "type": "cover-anatomy",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/window-cover-anatomy.png",
+        "title": "Storage Strap",
+        "text": "Made from Polyester with durable velcro to secure your cover in place."
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1645309809e53cd6ea"
   ]
 }
