@@ -36,7 +36,7 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
 
 .cover-anatomy-tooltip {
   position: absolute;
-  max-width: 25%;
+  max-width: 20%;
 }
 
 .cover-anatomy-tooltip:nth-child(2) {
