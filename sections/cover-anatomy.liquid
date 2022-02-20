@@ -1,15 +1,21 @@
 {{ 'section-cover-anatomy.css' | asset_url | stylesheet_tag }}
 
 <section class="cover-anatomy-wrapper">
+  <div class="cover-anatomy-title">
+    {{ section.settings.title }}
+  </div>
   <div class="cover-anatomy-grid">
     <img class="cover-anatomy-image"
       src="{{ section.settings.image | img_url: '1500x' }}"
       alt="{{ section.settings.image.alt | escape }}"
     >
-    <div class="cover-anatomy-tooltip">
-      <p class="bold">{{ settings.title }}</p>
-      <p>{{ settings.text }}</p>
-    </div>
+    {% for i in (1..7) %}
+    <!-- {{ loop_index }} -->
+      <div class="cover-anatomy-tooltip-{{ i }}">
+        <p class="bold">{{ section.settings.item-title-[i] }}</p>
+        <p>{{ section.settings.item-text-[i] }}</p>
+      </div>
+    {% endfor %}
   </div>
 </section>
 {% schema %}
@@ -24,12 +30,77 @@
       {
         "id": "title",
         "type": "text",
-        "label": "Item Title"
+        "label": "Section Title"
       },
       {
-        "id": "text",
+        "id": "item-title-1",
         "type": "textarea",
-        "label": "Item Text"
+        "label": "Item Title 1"
+      },
+      {
+        "id": "item-text-1",
+        "type": "textarea",
+        "label": "Item Text 1"
+      },
+      {
+        "id": "item-title-2",
+        "type": "textarea",
+        "label": "Item Title 2"
+      },
+      {
+        "id": "item-text-2",
+        "type": "textarea",
+        "label": "Item Text 2"
+      },
+      {
+        "id": "item-title-3",
+        "type": "textarea",
+        "label": "Item Title 3"
+      },
+      {
+        "id": "item-text-3",
+        "type": "textarea",
+        "label": "Item Text 3"
+      },
+      {
+        "id": "item-title-4",
+        "type": "textarea",
+        "label": "Item Title 4"
+      },
+      {
+        "id": "item-text-4",
+        "type": "textarea",
+        "label": "Item Text 4"
+      },
+      {
+        "id": "item-title-5",
+        "type": "textarea",
+        "label": "Item Title 5"
+      },
+      {
+        "id": "item-text-5",
+        "type": "textarea",
+        "label": "Item Text 5"
+      },
+      {
+        "id": "item-title-6",
+        "type": "textarea",
+        "label": "Item Title 6"
+      },
+      {
+        "id": "item-text-6",
+        "type": "textarea",
+        "label": "Item Text 6"
+      },
+      {
+        "id": "item-title-7",
+        "type": "textarea",
+        "label": "Item Title 7"
+      },
+      {
+        "id": "item-text-7",
+        "type": "textarea",
+        "label": "Item Text 7"
       }
     ],
     "presets": [
