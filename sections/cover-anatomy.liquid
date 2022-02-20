@@ -9,13 +9,34 @@
       src="{{ section.settings.image | img_url: '1500x' }}"
       alt="{{ section.settings.image.alt | escape }}"
     >
-    {% for i in (1..7) %}
-    <!-- {{ loop_index }} -->
-      <div class="cover-anatomy-tooltip-{{ i }}">
-        <p class="bold">{{ section.settings.item-title-[i] }}</p>
-        <p>{{ section.settings.item-text-[i] }}</p>
-      </div>
-    {% endfor %}
+    <div class="cover-anatomy-tooltip-1">
+      <p class="bold">{{ section.settings.item-title-1 }}</p>
+      <p>{{ section.settings.item-text-1 }}</p>
+    </div>
+    <div class="cover-anatomy-tooltip-2">
+      <p class="bold">{{ section.settings.item-title-2 }}</p>
+      <p>{{ section.settings.item-text-2 }}</p>
+    </div>
+    <div class="cover-anatomy-tooltip-3">
+      <p class="bold">{{ section.settings.item-title-3 }}</p>
+      <p>{{ section.settings.item-text-3 }}</p>
+    </div>
+    <div class="cover-anatomy-tooltip-4">
+      <p class="bold">{{ section.settings.item-title-4 }}</p>
+      <p>{{ section.settings.item-text-4 }}</p>
+    </div>
+    <div class="cover-anatomy-tooltip-5">
+      <p class="bold">{{ section.settings.item-title-5 }}</p>
+      <p>{{ section.settings.item-text-5 }}</p>
+    </div>
+    <div class="cover-anatomy-tooltip-6">
+      <p class="bold">{{ section.settings.item-title-6 }}</p>
+      <p>{{ section.settings.item-text-6 }}</p>
+    </div>
+    <div class="cover-anatomy-tooltip-7">
+      <p class="bold">{{ section.settings.item-title-7 }}</p>
+      <p>{{ section.settings.item-text-7 }}</p>
+    </div>
   </div>
 </section>
 {% schema %}
