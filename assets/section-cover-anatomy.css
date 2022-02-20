@@ -40,7 +40,6 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
 @media screen and (min-width: 750px) {
   .cover-anatomy-container {
     margin-top: -90px;
-    position: static;
     display: block;
     aspect-ratio: 1/1;
   }
