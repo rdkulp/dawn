@@ -9,21 +9,18 @@ section.cover-anatomy-wrapper {
 }
 
 .cover-anatomy-container {
-  margin-top: -90px;
   width: 100%;
   height: 100%;
   position: relative;
   aspect-ratio: 1/1;
 }
 
-.cover-anatomy-image {
-  position: absolute;
-  width: 68%;
-  height: 68%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  aspect-ratio: unset;
+.cover-anatomy-tooltip {
+  margin-bottom: 12px;
+}
+
+.cover-anatomy-tooltip:last-child {
+  margin-bottom: 0;
 }
 
 section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.bold {
@@ -38,42 +35,58 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
   line-height: 1em;
 }
 
-.cover-anatomy-tooltip {
-  position: absolute;
-  max-width: 20%;
-}
+@media screen and (min-width: 750px) {
+  .cover-anatomy-container {
+    margin-top: -90px;
+  }
 
-.cover-anatomy-tooltip:nth-child(2) {
-  top: 15%;
-  left: 24%;
-}
+  .cover-anatomy-image {
+    position: absolute;
+    width: 68%;
+    height: 68%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    aspect-ratio: unset;
+  }
 
-.cover-anatomy-tooltip:nth-child(3) {
-  top: 23%;
-  left: 75%;
-}
+  .cover-anatomy-tooltip {
+    position: absolute;
+    max-width: 20%;
+  }
 
-.cover-anatomy-tooltip:nth-child(4) {
-  top: 45%;
-  left: 77.5%;
-}
+  .cover-anatomy-tooltip:nth-child(2) {
+    top: 15%;
+    left: 24%;
+  }
 
-.cover-anatomy-tooltip:nth-child(5) {
-  top: 70%;
-  left: 70%;
-}
+  .cover-anatomy-tooltip:nth-child(3) {
+    top: 23%;
+    left: 75%;
+  }
 
-.cover-anatomy-tooltip:nth-child(6) {
-  top: 80%;
-  left: 50%;
-}
+  .cover-anatomy-tooltip:nth-child(4) {
+    top: 45%;
+    left: 77.5%;
+  }
 
-.cover-anatomy-tooltip:nth-child(7) {
-  top: 75%;
-  left: 15%;
-}
+  .cover-anatomy-tooltip:nth-child(5) {
+    top: 70%;
+    left: 70%;
+  }
 
-.cover-anatomy-tooltip:nth-child(8) {
-  top: 50%;
-  left: 2.5%;
+  .cover-anatomy-tooltip:nth-child(6) {
+    top: 80%;
+    left: 50%;
+  }
+
+  .cover-anatomy-tooltip:nth-child(7) {
+    top: 75%;
+    left: 15%;
+  }
+
+  .cover-anatomy-tooltip:nth-child(8) {
+    top: 50%;
+    left: 2.5%;
+  }
 }
