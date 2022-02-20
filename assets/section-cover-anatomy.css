@@ -73,7 +73,11 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
     background-color: #536EAF;
   }
 
-  .cover-anatomy-tooltip::before:hover section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.bold, .cover-anatomy-tooltip::before:hover section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.small {
+  .cover-anatomy-tooltip:hover:before section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.bold {
+    opacity: 1;
+  }
+
+  .cover-anatomy-tooltip:hover:before section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.small {
     opacity: 1;
   }
 
