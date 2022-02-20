@@ -10,8 +10,21 @@
       "type": "cover-anatomy",
       "settings": {
         "image": "shopify:\/\/shop_images\/window-cover-anatomy.png",
-        "title": "Storage Strap",
-        "text": "Made from Polyester with durable velcro to secure your cover in place."
+        "title": "Anatomy of a Window Cover",
+        "item-title-1": "Storage Strap",
+        "item-text-1": "Made from Polyester with durable velcro to secure your cover in place.",
+        "item-title-2": "Insulation",
+        "item-text-2": "Automotive Grade PE foam insulation with double faced pure aluminum radiant heat layer. We don't use cheap Low-E or pretend plastic foil that easily break down in use.",
+        "item-title-3": "Magnets",
+        "item-text-3": "Only the best Neodymium N48 Grade magnets are used in our product. We also take steps to stitch each one into pockets so they never move around in use.",
+        "item-title-4": "Outside Material",
+        "item-text-4": "Made from same 100% recycled PET plastic bottles as the inside but always in the color black to help with stealth camping and keeping your privacy inside.",
+        "item-title-5": "Design",
+        "item-text-5": "We laser cut our patterns to make sure they are accurate every time. We oversize our designs so when it fits into the window frame pocket, you get maximum light blackout.",
+        "item-title-6": "Pull tabs",
+        "item-text-6": "Helps get it started when opening\/closing or storing in place.",
+        "item-title-7": "Thread",
+        "item-text-7": "UV Resistant Polyester Thread to hold it all together for longevity and constant use."
       }
     }
   },
