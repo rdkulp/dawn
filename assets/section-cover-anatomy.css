@@ -24,13 +24,13 @@ section.cover-anatomy-wrapper {
 }
 
 section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.bold {
-  margin: 0 0 12px;
+  margin: 0 0 6px;
   font-weight: 900;
 }
 
 section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.small {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1em;
 }
 
