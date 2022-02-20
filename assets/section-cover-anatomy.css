@@ -76,11 +76,11 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
     opacity: 1;
   }
 
-  .cover-anatomy-tooltip:hover::before {
+  .cover-anatomy-tooltip-circle:hover::before {
     content: '';
     display: block;
     border: 2px white;
-    box-shadow: 4px 4px 4px 4px #536EAF;
+    box-shadow: 0px 4px 0px 0px #536EAF;
   }
 
   .cover-anatomy-tooltip:nth-child(2) {
