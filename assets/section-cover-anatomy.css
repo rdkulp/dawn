@@ -30,8 +30,8 @@ p.bold {
 
 p.small {
   margin: 0;
-  font-size: 1.2rem;
-  line-height: .8em;
+  font-size: 1rem;
+  line-height: 1em;
 }
 
 .cover-anatomy-tooltip {
@@ -60,16 +60,16 @@ p.small {
 }
 
 .cover-anatomy-tooltip:nth-child(6) {
-  top: 92.75%;
+  top: 80%;
   left: 50%;
 }
 
 .cover-anatomy-tooltip:nth-child(7) {
-  top: 80%;
+  top: 75%;
   left: 15%;
 }
 
 .cover-anatomy-tooltip:nth-child(8) {
   top: 50%;
-  left: 7.25%;
+  left: 2.5%;
 }
