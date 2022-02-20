@@ -42,6 +42,7 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
     margin-top: -90px;
     position: static;
     display: block;
+    aspect-ratio: 1/1;
   }
 
   .cover-anatomy-image {
