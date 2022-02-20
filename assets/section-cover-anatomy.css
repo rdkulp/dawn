@@ -22,6 +22,7 @@ section.cover-anatomy-wrapper {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  aspect-ratio: unset;
 }
 
 section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.bold {
