@@ -23,12 +23,12 @@ section.cover-anatomy-wrapper {
   transform: translate(-50%, -50%);
 }
 
-p.bold {
+section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.bold {
   margin: 0 0 12px;
   font-weight: 900;
 }
 
-p.small {
+section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.small {
   margin: 0;
   font-size: 1rem;
   line-height: 1em;
