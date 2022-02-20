@@ -5,6 +5,7 @@ section.cover-anatomy-wrapper {
 
 .cover-anatomy-title {
   text-align: center;
+  margin-bottom: 0;
 }
 
 .cover-anatomy-container {
@@ -40,17 +41,17 @@ section.cover-anatomy-wrapper .cover-anatomy-container .cover-anatomy-tooltip p.
 }
 
 .cover-anatomy-tooltip:nth-child(2) {
-  top: 5%;
-  left:30%;
+  top: 15%;
+  left: 24%;
 }
 
 .cover-anatomy-tooltip:nth-child(3) {
-  top: 18%;
+  top: 23%;
   left: 75%;
 }
 
 .cover-anatomy-tooltip:nth-child(4) {
-  top: 40%;
+  top: 45%;
   left: 80%;
 }
 
